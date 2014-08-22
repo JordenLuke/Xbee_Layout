@@ -1,0 +1,211 @@
+Netlist
+
+Exported from XbeeToI2C.sch at 8/18/2014 9:10:04 PM
+
+EAGLE Version 7.1.0 Copyright (c) 1988-2014 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
+3.3V     C1       A        +          1
+         C2       1        1          1
+         JP2      2        2          1
+         JP3      2        2          1
+         Q1       1        G          1
+         Q2       1        G          1
+         R1       1        1          1
+         R10      2        2          1
+         R11      2        2          1
+         R2       2        2          1
+         R3       1        1          1
+         R5       2        2          1
+         R7       2        2          1
+         U1       12       VDD        1
+         U2       1        VDD        1
+         U3       5        OUT        1
+
+ASSO     R9       2        2          1
+         SJ6      1        1          1
+
+CTS      JP3      7        7          1
+         Q2       2        S          1
+         R7       1        1          1
+         U2       12       CTS        1
+
+CTS5     Q2       3        D          1
+         R8       1        1          1
+         SJ4      2        2          1
+
+CTSI     JP5      5        CTS        1
+         SJ4      1        1          1
+
+DIN      JP1      5        5          1
+         LED3     C        C          1
+         SJ3      2        2          1
+         U2       3        DIN        1
+
+DIO0     JP3      14       14         1
+         U2       20       DIO0       1
+
+DIO1     JP3      13       13         1
+         U2       19       DIO1       1
+
+DIO2     JP3      12       12         1
+         U2       18       DIO2       1
+
+DIO3     JP3      11       11         1
+         SJ1      2        2          1
+         U2       17       DIO3       1
+
+DIO4     JP3      10       10         1
+         U2       11       DIO4       1
+
+DIO5     JP3      9        9          1
+         SJ6      2        2          1
+         U2       15       DIO5       1
+
+DIO9     JP3      5        5          1
+         U2       13       DIO9       1
+
+DIO11    JP3      3        3          1
+         U2       7        DIO11      1
+
+DIO12    U2       4        DIO12      1
+
+DOUT     JP1      3        3          1
+         LED2     C        C          1
+         R16      2        2          1
+         SJ2      2        2          1
+         U2       2        DOUT       1
+
+DTR      JP3      6        6          1
+         SJ5      2        2          1
+         U2       9        DTR        1
+
+DTRO     JP5      1        DTR        1
+         SJ5      1        1          1
+
+GND      C1       C        -          1
+         C2       2        2          1
+         C3       C        -          1
+         J1       1        -          1
+         JP2      1        1          1
+         JP3      1        1          1
+         JP4      2        2          1
+         JP5      6        GND        1
+         LED1     C        C          1
+         LED4     C        C          1
+         LED5     C        C          1
+         R12      1        1          1
+         S1       3        2          1
+         S2       3        2          1
+         U1       4        VSS        1
+         U2       10       GND        1
+         U3       2        GND        1
+
+GPIO0    JP2      14       14         1
+         U1       1        GPIO0      1
+
+GPIO1    JP2      13       13         1
+         U1       2        GPIO1      1
+
+GPIO2    JP2      12       12         1
+         U1       5        GPIO2      1
+
+GPIO3    JP2      11       11         1
+         U1       6        GPIO3      1
+
+GPIO4    JP2      10       10         1
+         U1       15       GPIO4      1
+
+GPIO5    JP2      9        9          1
+         U1       14       GPIO5      1
+
+GPIO6    JP2      8        8          1
+         U1       11       GPIO6      1
+
+GPIO7    JP2      7        7          1
+         U1       16       GPIO7      1
+
+N$1      LED2     A        A          1
+         R1       2        2          1
+
+N$2      LED4     A        A          1
+         R4       1        1          1
+
+N$4      LED3     A        A          1
+         R3       2        2          1
+
+N$18     LED5     A        A          1
+         R9       1        1          1
+
+N$38     LED1     A        A          1
+         R11      1        1          1
+
+RES1     U2       8        RES        1
+
+RESET    S2       1        1          1
+         U2       5        RESET      1
+
+REST     JP2      6        6          1
+         S1       1        1          1
+         U1       3        ~RESET     1
+
+RSSI     JP3      4        4          1
+         R4       2        2          1
+         U2       6        RSSI       1
+
+RTS      JP3      8        8          1
+         SJ1      1        1          1
+         U2       16       RTS        1
+
+RX       JP1      4        4          1
+         SJ2      1        1          1
+         U1       9        RX         1
+
+RXI      JP1      1        1          1
+         JP1      8        8          1
+         JP5      2        RXI        1
+         R13      1        1          1
+
+SCL      JP2      3        3          1
+         U1       8        SCL        1
+
+SDA      JP2      4        4          1
+         U1       7        SDA        1
+
+TX       JP1      6        6          1
+         R15      1        1          1
+         SJ3      1        1          1
+         U1       10       TX         1
+
+TXF      JP1      2        2          1
+         JP1      7        7          1
+         Q1       2        S          1
+         R5       1        1          1
+
+TXO      JP5      3        TXO        1
+         Q1       3        D          1
+         R14      1        1          1
+         R6       1        1          1
+
+VBATT    D1       A        A          1
+         J1       2        +          1
+         JP4      1        1          1
+
+VCC      C3       A        +          1
+         D1       C        C          1
+         JP5      4        VCC        1
+         R6       2        2          1
+         R8       2        2          1
+         U3       1        IN         1
+         U3       3        EN         1
+
+VREF     U2       14       RES        1
+
+VRFF     R10      1        1          1
+         R12      2        2          1
+
+WAKEUP   JP2      5        5          1
+         R2       1        1          1
+         U1       13       ~WAKEUP    1
+
